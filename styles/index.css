@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  src: url('../assets/fonts/SourceSansPro-Black.ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Extra-Light';
+  src: url('../assets/fonts/SourceSansPro-ExtraLight.ttf');
+}
+
+.head {
+  background: url('../assets/images/wisam.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+}
+
+.head:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image:
+    linear-gradient(-168deg, rgba(71,189,182,0.3), rgba(71,189,182,0) 25%),
+    linear-gradient(-122deg, rgba(71,189,182,0.24), rgba(71,189,182,0) 90%),
+    linear-gradient(-69deg, rgba(0,0,0,0.7), rgba(71,189,182,0) 70%);
+    height: 100vh;
+}
+
+h1 {
+  font-family: 'SourceSansPro-Bold';
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'SourceSansPro-Extra-Light';
+}
+
+a {
+  text-decoration: none;
+}
+
+svg:hover {
+  fill: #EFECE9;
+}
