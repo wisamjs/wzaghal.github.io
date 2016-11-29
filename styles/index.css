@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'SourceSansPro-Bold';
+  font-family: 'SourceSansPro-Black';
   src: url('../assets/fonts/SourceSansPro-Black.woff');
 }
 
@@ -30,7 +30,7 @@
 }
 
 h1 {
-  font-family: 'SourceSansPro-Bold';
+  font-family: 'SourceSansPro-Black';
   text-transform: uppercase;
 }
 
