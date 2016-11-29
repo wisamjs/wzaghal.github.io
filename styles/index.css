@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'SourceSansPro-Bold';
-  src: url('../assets/fonts/SourceSansPro-Black.ttf');
+  src: url('../assets/fonts/SourceSansPro-Black.woff');
 }
 
 @font-face {
   font-family: 'SourceSansPro-Extra-Light';
-  src: url('../assets/fonts/SourceSansPro-ExtraLight.ttf');
+  src: url('../assets/fonts/SourceSansPro-ExtraLight.woff');
 }
 
 .head {
